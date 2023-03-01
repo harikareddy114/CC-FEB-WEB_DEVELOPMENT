@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+      <div class="login-form">
+        <div class="form-title">
+            Member login
+        </div>
+        <div class="form-input">
+            <label for="username">Username</label>
+            <input type="text" id="username">
+        </div>
+        <div class="form-input">
+            <label for="password">Password</label>    
+            <input type="password" id="password">
+        </div>
+        <div class="center"><br>
+            <div id="captchaBackground">
+              <span id="captcha">captcha text</span>
+              <input id="textBox" type="text" name="text">
+              <div id="buttons">
+                <input id="submit" type="submit">
+                <button id="refresh">
+                    <i href="#" class="fa fa-refresh"></i>
+                </button>
+              </div> 
+              <span id="output"></span>
+            </div>
+          </div>
+          <script src="home.js"></script>
+      </div>  
+</body>
+</html>
